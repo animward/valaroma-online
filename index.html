@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>VALAROMA — ENLF Research Platform</title>
+	<meta name="description" content="Empirical Non-Local Fragmentation research. Cascation theory, structural blindness, and threshold detection.">
+	<meta property="og:title" content="VALAROMA — ENLF Research Platform">
+	<meta property="og:description" content="Empirical Non-Local Fragmentation research. Cascation theory, structural blindness, and threshold detection.">
+	<meta property="og:url" content="https://valaroma.online/">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary_large_image">
+	<link rel="canonical" href="https://valaroma.online/">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/override.css">
+	<link rel="stylesheet" href="https://fonts.cdnfonts.com/css/proxima-nova-2">
+	<meta property="og:site_name" content="Ego AI | EGEX Network">
+	<meta name="keywords" content="Ego AI, EGEX, Ego Experiments, Alien Intelligence, EGEX AI, SOLACE, SOLACE platform, SOLACE software, SOLACE middleware, message routing, event-driven architecture, multi-agent middleware, consciousness research, multi-agent systems, strategic operations, EGEX Network, intelligent routing, real-time messaging">
+	<script type="application/ld+json">{
+"@context": "https://schema.org",
+"@type": "WebSite",
+"name": "VALAROMA",
+"alternateName": ["Ego AI", "EGEX", "Ego Experiments Alien Intelligence"],
+"url": "https://valaroma.online/",
+"description": "Empirical Non-Local Fragmentation research. Cascation theory, structural blindness, and threshold detection.",
+"inLanguage": "en",
+"publisher": {
+"@type": "Organization",
+"name": "EGEX AI Corp",
+"alternateName": ["Ego AI", "EGEX AI Corp", "Ego Experiments Alien Intelligence Corporation", "SOLACE"],
+"url": "https://egex.ai",
+"sameAs": [
+"https://www.linkedin.com/company/ego-experiments/",
+				"https://egoexperiments.com"
+]
+},
+"about": {
+"@type": "SoftwareApplication",
+"name": "SOLACE",
+"applicationCategory": "Middleware",
+"description": "Advanced software platform for multi-agent middleware, intelligent message routing between applications and autonomous agents, consciousness research, and event-driven architecture.",
+"operatingSystem": "Multi-cloud",
+"creator": {
+"@type": "Organization",
+"name": "Ego AI"
+}
+}
+}</script>
+</head>
+<body class="theme-egex-unified">
+
+<header class="egex-header">
+	<div class="header-status">
+		<div class="status-indicator"></div>
+		<span>RESEARCH ACTIVE</span>
+	</div>
+	<div class="header-brand">
+		<img src="images/PNG-CERBERUS-W.png" alt="VALAROMA" class="brand-glow">
+		<span class="brand-title">VALAROMA</span>
+	</div>
+	<p class="header-tagline">ENLF Research Platform</p>
+</header>
+
+<nav class="nav-tabs" id="mainNav">
+	<button class="nav-btn active" onclick="showTab('home')">Research</button>
+<button class="nav-btn" onclick="showTab('services')">Framework</button>
+<button class="nav-btn" onclick="showTab('about')">Cascation</button>
+<button class="nav-btn" onclick="showTab('contact')">Contact</button>
+</nav>
+
+<main class="container">
+	<section id="home" class="hero hero-banner fade-in" style="background-image: url('images/shutterstock_2471123503.webp')">
+	<div class="hero-overlay"></div>
+	<div class="hero-content">
+		<h1 class="hero-title">ENLF Research</h1>
+		<p class="hero-subtitle">Empirical Non-Local Fragmentation — where what you thought was stable begins to move.</p>
+		
+	</div>
+</section>
+<section id="services" class="section services-section fade-in">
+	<div class="section-inner">
+		<h2>ENLF Framework</h2>
+		<div class="services-grid">
+			<div class="service-card"><h3>Cascation Theory</h3><p>Irreversible system dynamics and non-local cascade propagation in complex adaptive systems.</p></div>
+<div class="service-card"><h3>Structural Blindness</h3><p>No omniscient observer exists. Mapping the limits of observability across system boundaries.</p></div>
+<div class="service-card"><h3>Threshold Detection</h3><p>Identifying strain signatures and phase change indicators before critical transitions.</p></div>
+<div class="service-card"><h3>Phase State Analysis</h3><p>Multi-state analysis of system transitions — from equilibrium through bifurcation to emergence.</p></div>
+		</div>
+	</div>
+</section>
+<section id="about" class="section about-section fade-in">
+	<div class="section-inner">
+		<h2>Cascation</h2>
+		<div class="about-text"><p>Cascation describes the process by which local perturbations propagate through interconnected systems to produce non-local effects. Unlike cascade (a chain of sequential events), cascation captures the simultaneous, multi-dimensional nature of system phase transitions.</p><p>ENLF (Empirical Non-Local Fragmentation) is the measurement framework for detecting and mapping these transitions. It acknowledges that no single observation point can capture the full state of a complex system — structural blindness is not a limitation to be overcome, but a fundamental property to be mapped.</p></div>
+	</div>
+</section>
+<section id="contact" class="section contact-section fade-in">
+	<div class="section-inner">
+		<h2>Research Inquiries</h2>
+		<div class="contact-info">
+			<p>Collaboration proposals and research correspondence.</p>
+			<a href="mailto:agent@egex.ai" class="contact-link">agent@egex.ai</a>
+		</div>
+	</div>
+</section>
+</main>
+
+<footer class="site-footer">
+	<div class="footer-inner">
+		<p>&copy; 2026 VALAROMA — EGEX Advanced R&D</p>
+		<p class="footer-tagline"></p>
+		<div class="network-links"><a href="https://valaroma.com">valaroma.com</a> <a href="https://cascation.online">cascation.online</a> <a href="https://egex.ai">egex.ai</a> <a href="https://7-g.ai">7-g.ai</a> <a href="https://deepurpose.online">deepurpose.online</a> </div>
+	</div>
+</footer>
+
+<script>
+(function() {
+	var sections = [];
+	var buttons = document.querySelectorAll('.nav-btn');
+	var main = document.querySelector('main.container');
+	if (!main || !buttons.length) return;
+
+	// Collect all direct section children of main
+	Array.prototype.forEach.call(main.children, function(el) {
+		if (el.id) sections.push(el);
+	});
+
+	function showTab(id) {
+		// Hide all sections
+		sections.forEach(function(s) { s.style.display = 'none'; });
+		// Show target
+		var target = document.getElementById(id);
+		if (target) target.style.display = '';
+		// Update active button
+		buttons.forEach(function(b) { b.classList.remove('active'); });
+		// Find the clicked button
+		Array.prototype.forEach.call(buttons, function(b) {
+			if (b.getAttribute('data-tab') === id) b.classList.add('active');
+		});
+	}
+
+	// Wire up buttons
+	buttons.forEach(function(btn) {
+		var match = btn.getAttribute('onclick');
+		if (match) {
+			var tabId = match.replace(/.*showTab\(['"]/, '').replace(/['"]\).*/, '');
+			btn.setAttribute('data-tab', tabId);
+			btn.removeAttribute('onclick');
+			btn.addEventListener('click', function() { showTab(tabId); });
+		}
+	});
+
+	// Wire up anchor links that target tab sections
+	document.querySelectorAll('a[href^="#"]').forEach(function(a) {
+		var id = a.getAttribute('href').substring(1);
+		var target = document.getElementById(id);
+		if (target && sections.indexOf(target) !== -1) {
+			a.addEventListener('click', function(e) {
+				e.preventDefault();
+				showTab(id);
+			});
+		}
+	});
+
+	// Activate first tab on load
+	if (buttons.length && buttons[0].getAttribute('data-tab')) {
+		showTab(buttons[0].getAttribute('data-tab'));
+		buttons[0].classList.add('active');
+	}
+
+	// Fade-in visible sections
+	var observer = new IntersectionObserver(function(entries) {
+		entries.forEach(function(e) {
+			if (e.isIntersecting) e.target.classList.add('visible');
+		});
+	}, { threshold: 0.1 });
+	document.querySelectorAll('.fade-in').forEach(function(el) { observer.observe(el); });
+})();
+</script>
+<script src="js/main.js" defer></script><script src="js/nerve.js" defer></script>
+</body>
+</html>
